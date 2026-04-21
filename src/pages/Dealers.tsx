@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { db } from '../services/mockBackend';
 import type { Dealer, DealerRequest, Product } from '../services/mockBackend';
 

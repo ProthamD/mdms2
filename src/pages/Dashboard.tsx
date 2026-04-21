@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { db } from '../services/mockBackend';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Package, Truck, AlertTriangle, TrendingUp } from 'lucide-react';
+import { Truck, AlertTriangle, TrendingUp } from 'lucide-react';
 
 export const Dashboard = () => {
   const [stats, setStats] = useState<any>(null);
